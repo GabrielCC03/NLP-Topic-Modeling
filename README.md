@@ -26,9 +26,8 @@ This project applies advanced unsupervised machine learning techniques to perfor
   - Combined Top2vec for embedding generation, AGNES for hierarchical clustering, and tf-idf for keyword importance.
 <img width="527" alt="Top2vec PCA" src="https://github.com/user-attachments/assets/5e607cc3-c7c3-4fbe-8082-7a1f9578722a" />
 
-I used top2vec, which finds topics within documents and generates jointly embedded topic, document, and word vectors. Top2vec uses the hdbscan algorithm for clustering and was not deterministic, so using a 5% shuf�led version of the dataset, it would return around 94 topics each time. In practice, this number of topics is still too much, which means the topics need to be more general.
-
-  - Thus, I used Agglomerative Nesting (AGNES) to reduce the number of topics to 13, the number of topics with a higher coherence score using LDA, by merging their representative keywords
+I used top2vec, which finds topics within documents and generates jointly embedded topic, document, and word vectors. Top2vec uses the hdbscan algorithm for clustering and was not deterministic, so using a 5% shuffled version of the dataset, it would return around 94 topics each time. In practice, this number of topics is still too much, which means the topics need to be more general.
+Thus, I used Agglomerative Nesting (AGNES) to reduce the number of topics to 13, the number of topics with a higher coherence score using LDA, by merging their representative keywords
 <img width="550" alt="AGNES" src="https://github.com/user-attachments/assets/f965c44d-56df-4672-83ab-71c0161c3a93" />
 
 
