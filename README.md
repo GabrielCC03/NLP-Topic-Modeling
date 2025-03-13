@@ -2,7 +2,8 @@
 
 ## Project Overview
 This project applies advanced unsupervised machine learning techniques to perform topic modeling on a dataset of news headlines. The goal is to automatically discover meaningful topics within a large corpus of news headlines to facilitate easy categorization and further analysis.
-** Dataset:** https://www.kaggle.com/datasets/therohk/million-headlines
+
+**Dataset:** https://www.kaggle.com/datasets/therohk/million-headlines
 
 ## Techniques Implemented
 
