@@ -18,7 +18,7 @@ This project applies advanced unsupervised machine learning techniques to perfor
   - Implemented LDA for probabilistic topic modeling.
   - Determined optimal number of topics through coherence scores to balance specificity and generalization.
 ![LDA - Coherence Score](https://github.com/user-attachments/assets/ef7ee0e2-9555-4a2a-a916-e7305894c363)
-<img width="1188" alt="LDAvis" src="https://github.com/user-attachments/assets/6bffa6f0-9ed5-44b0-8a45-980910718acf" />
+<img width="1009" alt="LDAvis" src="https://github.com/user-attachments/assets/8ac99010-11a1-419c-afe5-fa8692ca2434" />
 
 
 - **Top2Vec, AGNES, and TF-IDF Hybrid Approach:**
